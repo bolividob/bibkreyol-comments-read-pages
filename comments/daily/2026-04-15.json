@@ -1,9 +1,37 @@
 {
   "date": "2026-04-15",
   "verseKey": "daily:2026-04-15",
-  "updatedAt": 1776248167834,
+  "updatedAt": 1776254141046,
   "version": 1,
   "comments": [
+    {
+      "id": "local-1776249352916",
+      "text": "amen",
+      "userDeviceId": "74d53e539033aa0f686c5ad1c6c103dd52ecd21a3884f0c7eb8b85cf435557c9",
+      "userName": "Vanessa petiotte",
+      "verseName": "Tit 1:2",
+      "parentId": null,
+      "replyCount": 0,
+      "likeCount": 0,
+      "likedBy": [],
+      "createdAt": 1776249326254,
+      "updatedAt": 1776249326254,
+      "status": "active"
+    },
+    {
+      "id": "local-1776248372934",
+      "text": "Amen 🙏🙏",
+      "userDeviceId": "43b484f7c7103ff8de07ff7d324bc49510236e803a9db298c2b29c2fea2b3969",
+      "userName": "sr Marie",
+      "verseName": "Tit 1:2",
+      "parentId": null,
+      "replyCount": 0,
+      "likeCount": 0,
+      "likedBy": [],
+      "createdAt": 1776248375751,
+      "updatedAt": 1776248375751,
+      "status": "active"
+    },
     {
       "id": "local-1776232548748",
       "text": "merçi Jesus",
@@ -96,9 +124,9 @@
       "status": "active"
     }
   ],
-  "likeCount": 40,
-  "shareCount": 48,
-  "viewCount": 3329,
+  "likeCount": 44,
+  "shareCount": 68,
+  "viewCount": 3983,
   "verseLikedBy": [
     "8e325703050cf0bf34d52437425df6eebed2c3d94470f56c8b1e6a7f5198e105",
     "01bdd6a84d1545fcc11d5f5562a5c5c0936bded53f8f749eb725cdf671e2bbfe",
@@ -128,7 +156,6 @@
     "925bb69757e59585a734ec8a29a9eb809b2256a32177ca489dd4a17f43eaeaa8",
     "19990ac3f4c172012f170352ee2c0584a75a9b4e8eb3d65124b8a73bc8968f38",
     "6b205028e04a5f0e8ad1048b25300042a8377e73e94928efaa85da8afab0feea",
-    "fea8b889ca425f4c47c4e3dd45032c7a5fe7101102f20a42c927abbe9422259e",
     "2cc15b58f8e81ec3dbfb96fa234b8e3a76f52d39acb53d7960c6be3f64c2f86f",
     "163eb4235dd268325a91cee2252614668f21ee71602b8b18ca885ff2ac82382d",
     "bff22ca585658c8540ce74274566da2c816e592b1ab739e6f392666579bb270a",
@@ -139,7 +166,12 @@
     "b91755a5f10898872e969eb18a3b76a875a5d627d9eab624e04df72465b8b399",
     "2b5e15519a7315a8740701d37ff67fd05af869089ffea7762319a47f1be9d75f",
     "22f5a81b1b567b44e442f51c9129a6df18bdc1c1aeac55195645afb7c6a2f7e3",
-    "84feca118705748b6114eb1bea66e1c52d361647c501e0e5fadb2f967b523b20"
+    "84feca118705748b6114eb1bea66e1c52d361647c501e0e5fadb2f967b523b20",
+    "7d5ad91b70f83700ffef82b8b3264d76cb19bba8490f2c23385656e1bd8e5a06",
+    "3eb3d96fa798d167d430628a37fa172e1ac3dfab741cd795bb5299a5618c0ea2",
+    "f944ca219036950cf7c73e6abc030c512d5b531b46ec224bf999690f48a15a11",
+    "3295d5e19f95953b9169054f26e14401ee9381b2ad09332c98a93f251818ddd0",
+    "a938b886e9a6f82c1f747b249fa20d09d092389a37ae4c0b6747f73af08addfd"
   ],
   "verseViewBy": []
 }
