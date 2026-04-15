@@ -1,9 +1,53 @@
 {
   "date": "2026-04-15",
   "verseKey": "daily:2026-04-15",
-  "updatedAt": 1776224081257,
+  "updatedAt": 1776232763675,
   "version": 1,
   "comments": [
+    {
+      "id": "local-1776232548748",
+      "text": "merçi Jesus",
+      "userDeviceId": "cd8a703ae004ec8286597bfbf818923363dcca444401c078d350b96da67e4b04",
+      "userName": "mystafa",
+      "verseName": "Tit 1:2",
+      "parentId": null,
+      "replyCount": 0,
+      "likeCount": 0,
+      "likedBy": [],
+      "createdAt": 1776232550548,
+      "updatedAt": 1776232550548,
+      "status": "active"
+    },
+    {
+      "id": "local-1776232514324",
+      "text": "Amém amém amém",
+      "userDeviceId": "cd8a703ae004ec8286597bfbf818923363dcca444401c078d350b96da67e4b04",
+      "userName": "mystafa",
+      "verseName": "Tit 1:2",
+      "parentId": null,
+      "replyCount": 0,
+      "likeCount": 0,
+      "likedBy": [],
+      "createdAt": 1776232516322,
+      "updatedAt": 1776232516322,
+      "status": "active"
+    },
+    {
+      "id": "local-1776225663592",
+      "text": "Yon sel mesaj!",
+      "userDeviceId": "6b205028e04a5f0e8ad1048b25300042a8377e73e94928efaa85da8afab0feea",
+      "userName": "Okido",
+      "verseName": "Tit 1:2",
+      "parentId": null,
+      "replyCount": 0,
+      "likeCount": 1,
+      "likedBy": [
+        "cd8a703ae004ec8286597bfbf818923363dcca444401c078d350b96da67e4b04"
+      ],
+      "createdAt": 1776225665690,
+      "updatedAt": 1776232570598,
+      "status": "active"
+    },
     {
       "id": "local-1776221846064",
       "text": "amen",
@@ -52,9 +96,9 @@
       "status": "active"
     }
   ],
-  "likeCount": 25,
-  "shareCount": 27,
-  "viewCount": 2030,
+  "likeCount": 35,
+  "shareCount": 32,
+  "viewCount": 2604,
   "verseLikedBy": [
     "8e325703050cf0bf34d52437425df6eebed2c3d94470f56c8b1e6a7f5198e105",
     "01bdd6a84d1545fcc11d5f5562a5c5c0936bded53f8f749eb725cdf671e2bbfe",
@@ -80,7 +124,17 @@
     "b3edf2ef1f30e322799a9eeddb1b844846452ee1d65e417b8e49fb5bac2e6281",
     "77b46313c6424617024ac97c57bee4decf323fcb56891cfe5aec1516ccab5050",
     "08c0addaf5ef967d5c0d20e5e305f18b45b0f48ccb23a0bac5ffc763767136a6",
-    "06990993ae179572a73d12065fa5fdee920758efc155529067c74e3cfbffaf19"
+    "06990993ae179572a73d12065fa5fdee920758efc155529067c74e3cfbffaf19",
+    "925bb69757e59585a734ec8a29a9eb809b2256a32177ca489dd4a17f43eaeaa8",
+    "19990ac3f4c172012f170352ee2c0584a75a9b4e8eb3d65124b8a73bc8968f38",
+    "6b205028e04a5f0e8ad1048b25300042a8377e73e94928efaa85da8afab0feea",
+    "fea8b889ca425f4c47c4e3dd45032c7a5fe7101102f20a42c927abbe9422259e",
+    "2cc15b58f8e81ec3dbfb96fa234b8e3a76f52d39acb53d7960c6be3f64c2f86f",
+    "163eb4235dd268325a91cee2252614668f21ee71602b8b18ca885ff2ac82382d",
+    "bff22ca585658c8540ce74274566da2c816e592b1ab739e6f392666579bb270a",
+    "b82f654d59de2e03bb449aa92f3a6c1a8b1a3dda94177940eab8a100c52dca7c",
+    "cd8a703ae004ec8286597bfbf818923363dcca444401c078d350b96da67e4b04",
+    "544edbb4190868b7126d8acb99e63ba037a96e8be4ed1f7f2a7d98a8c6ed7ce0"
   ],
   "verseViewBy": []
 }
