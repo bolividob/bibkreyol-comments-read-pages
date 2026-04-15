@@ -1,7 +1,7 @@
 {
   "date": "2026-04-14",
   "verseKey": "daily:2026-04-14",
-  "updatedAt": 1776205654209,
+  "updatedAt": 1776221592927,
   "version": 1,
   "comments": [
     {
@@ -12,10 +12,12 @@
       "verseName": "Eklezyas 9:3",
       "parentId": null,
       "replyCount": 0,
-      "likeCount": 0,
-      "likedBy": [],
+      "likeCount": 1,
+      "likedBy": [
+        "163eb4235dd268325a91cee2252614668f21ee71602b8b18ca885ff2ac82382d"
+      ],
       "createdAt": 1776198314975,
-      "updatedAt": 1776198314975,
+      "updatedAt": 1776209156633,
       "status": "active"
     },
     {
@@ -107,9 +109,9 @@
       "status": "active"
     }
   ],
-  "likeCount": 35,
-  "shareCount": 83,
-  "viewCount": 4735,
+  "likeCount": 38,
+  "shareCount": 87,
+  "viewCount": 5371,
   "verseLikedBy": [
     "8fcefb09cf849fc7ffbee243c3dde4b1515d6c970e570da6b3f2d6dc031a609f",
     "da6de74b4d4f2d039bc1509bb865e3c48f44a20c5b35a28531a77bcceccf3538",
@@ -145,7 +147,10 @@
     "f50238fc8cdbdbcd5ce3dd00cece55765bf69c17ab44d849307e415c455d6604",
     "9c2502dff0443f30070c7a09c5b52f0695a89cfebb9b7dbbc3c6e0a4ab313707",
     "2a981946d8b8f9d8bae42096614a702da87c5c30073cf16c97f2c5322c2829ed",
-    "53007507741ce2effc3578ea851082f73541d637613e68452c0c4582bd4e6ed8"
+    "53007507741ce2effc3578ea851082f73541d637613e68452c0c4582bd4e6ed8",
+    "cbae4e08a02c4d06d462d1445b32c45eb680e6278dcab3c363c5afd3b0651d1d",
+    "2344f066a9059eba9f91a23a086e4b7a0165782a920958147f87500cb8e07d09",
+    "93d37eb75647c8a6e3893a984eb579c39a4f4cbd4b9eb7cb69930615ffdc9399"
   ],
   "verseViewBy": []
 }
