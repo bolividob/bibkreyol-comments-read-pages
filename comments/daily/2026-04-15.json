@@ -1,9 +1,23 @@
 {
   "date": "2026-04-15",
   "verseKey": "daily:2026-04-15",
-  "updatedAt": 1776259566424,
+  "updatedAt": 1776265516427,
   "version": 1,
   "comments": [
+    {
+      "id": "local-1776262057786",
+      "text": "pataje vese a, pa fe chich!",
+      "userDeviceId": "6b205028e04a5f0e8ad1048b25300042a8377e73e94928efaa85da8afab0feea",
+      "userName": "Okido",
+      "verseName": "Tit 1:2",
+      "parentId": null,
+      "replyCount": 0,
+      "likeCount": 0,
+      "likedBy": [],
+      "createdAt": 1776262061372,
+      "updatedAt": 1776262061372,
+      "status": "active"
+    },
     {
       "id": "local-1776249352916",
       "text": "amen",
@@ -68,12 +82,13 @@
       "verseName": "Tit 1:2",
       "parentId": null,
       "replyCount": 0,
-      "likeCount": 1,
+      "likeCount": 2,
       "likedBy": [
-        "cd8a703ae004ec8286597bfbf818923363dcca444401c078d350b96da67e4b04"
+        "cd8a703ae004ec8286597bfbf818923363dcca444401c078d350b96da67e4b04",
+        "6b205028e04a5f0e8ad1048b25300042a8377e73e94928efaa85da8afab0feea"
       ],
       "createdAt": 1776225665690,
-      "updatedAt": 1776233370862,
+      "updatedAt": 1776262030665,
       "status": "active"
     },
     {
@@ -125,8 +140,8 @@
     }
   ],
   "likeCount": 47,
-  "shareCount": 83,
-  "viewCount": 4420,
+  "shareCount": 93,
+  "viewCount": 4975,
   "verseLikedBy": [
     "8e325703050cf0bf34d52437425df6eebed2c3d94470f56c8b1e6a7f5198e105",
     "01bdd6a84d1545fcc11d5f5562a5c5c0936bded53f8f749eb725cdf671e2bbfe",
