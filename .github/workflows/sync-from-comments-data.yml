@@ -1,0 +1,55 @@
+# Extra mirror repo: pull comments/daily/*.json from bolividob/bibkreyol-comments-data and push here.
+# This repo uses legacy GitHub Pages (branch build) — a push to main rebuilds the site automatically.
+
+name: Sync from bibkreyol-comments-data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'  # hourly (light mirror; main repo deploys on every data push)
+
+concurrency:
+  group: read-pages-sync-upstream
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch upstream comments/daily
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/upstream
+          git clone --depth 1 --branch main \
+            https://github.com/bolividob/bibkreyol-comments-data.git /tmp/upstream
+          mkdir -p comments/daily
+          shopt -s nullglob
+          files=(/tmp/upstream/comments/daily/*.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "Upstream has no comments/daily/*.json"
+            exit 1
+          fi
+          cp -v "${files[@]}" comments/daily/
+          if [ -f /tmp/upstream/_headers ]; then cp -v /tmp/upstream/_headers .; fi
+          if [ -f /tmp/upstream/_routes.json ]; then cp -v /tmp/upstream/_routes.json .; fi
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add comments/daily _headers _routes.json 2>/dev/null || git add comments/daily
+          if git diff --staged --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "Sync from bolividob/bibkreyol-comments-data (${{ github.run_id }})"
+          git push
